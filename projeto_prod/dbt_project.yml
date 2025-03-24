@@ -36,7 +36,7 @@ models:
       schema: stg
       +materialized: table
       tags: ['staging']
-
++
     intermediate:
       schema: stg
       +materialized: table #ephemeral

@@ -3,3 +3,13 @@ venv/
 target/
 dbt_packages/
 logs/
+.env
+.astro/
+dags/
+include/
+plugins
+testes/
+airflow_settings.yaml
+Dockerfile
+packages.txt
+tests

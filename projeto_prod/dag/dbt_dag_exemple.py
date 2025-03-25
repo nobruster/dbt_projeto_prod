@@ -20,6 +20,6 @@ profiles_dir = "/usr/local/airflow/dags/projeto_prod"
 
 dbt_run = BashOperator(
     task_id='dbt_run',
-    bash_command=f"dbt run --target prod -s +my_first_dbt_model --project-dir {project_dir}  --profiles-dir {profiles_dir} ",
+    bash_command=f"dbt run seed --target prod -s +my_first_dbt_model --project-dir {project_dir}  --profiles-dir {profiles_dir} ",
     dag=dag
 )
